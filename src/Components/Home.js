@@ -12,7 +12,7 @@ class Home extends Component {
 
   componentDidMount() {
     const app_key = "273850e5347b4af0ae7c082f104ea3f8";
-    const home_url = `http://newsapi.org/v2/top-headlines?country=in&apiKey=${app_key}`;
+    const home_url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=${app_key}`;
     fetch(home_url)
       .then((response) => response.json())
       .then((myJson) => {
