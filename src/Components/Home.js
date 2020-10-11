@@ -28,7 +28,7 @@ class Home extends Component {
     return (
       <div>
         <div id="topic">
-        <div>◀ Top Stories ▶</div>
+        <div>Top Stories</div>
         <div id="time">Last updated: {currTime}</div>
         </div>
         <div className="container">
