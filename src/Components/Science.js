@@ -10,7 +10,7 @@ class Science extends Component {
 
   componentDidMount() {
     const app_key = "273850e5347b4af0ae7c082f104ea3f8";
-    const sci_url = `http://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=${app_key}`;
+    const sci_url = `https://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=${app_key}`;
     fetch(sci_url)
       .then((response) => response.json())
       .then((myJson) => {
